@@ -1,0 +1,96 @@
+#doctor {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Nunito';
+background-color:  #C0D8C0;
+ 
+}
+
+#Patient{
+  background-color:  #C0D8C0;
+  font-family: 'Nunito';
+
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 150px;
+  padding: 30px 30px 30px 30px;
+  max-width: 900px;
+  height: 320px;
+  border: 1px solid black;
+   border-radius: 25px;
+   background-color: black;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 30px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+.search{
+  padding-top: 80px;
+}
+
+input{
+   border-radius: 30px;
+   padding: 10px 10px 10px 10px;
+}
+
+#button{
+
+text-align: center;
+}
+
+
+#signup 
+{
+  
+  padding: 100px 100px 100px 100px;
+}
+
+#userName{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    font-size: large;
+    font-weight: 700;
+    text-align: right;
+    color: whitesmoke;
+}
+
+#doctorName{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    font-size: large;
+    font-weight: 700;
+    text-align: right;
+    color: whitesmoke;
+}
+
+
+#signup
+{
+   font-family: 'Poiret One', cursive;
+  background: #3494E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn{
+  background: #3494E6;
+  border: #3494E6;
+  padding: 0.6rem 3rem;
+  font-weight: bold;
+}
+
+#signUp
+{
+
+  border: 2px solid #f1f1f1;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+#docdash {
+  padding-top: 100px;
+}

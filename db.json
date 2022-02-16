@@ -1,0 +1,223 @@
+{
+  "users": [
+    {
+      "firstName": "Pawan",
+      "lastName": "Chenniya",
+      "dob": "1996-11-22",
+      "email": "pawan@gmail.com",
+      "contact": "7972098908",
+      "city": "Saoner",
+      "Gender": "male",
+      "password": "pawa@1234",
+      "id": 1
+    },
+    {
+      "firstName": "Zubair",
+      "lastName": "Nisar",
+      "dob": "1991-02-04",
+      "email": "zuba@gmail.com",
+      "contact": "9856398561",
+      "city": "Gurugram",
+      "Gender": "male",
+      "password": "zuba@1234",
+      "id": 2
+    },
+    {
+      "firstName": "Alia",
+      "lastName": "Bhatt",
+      "dob": "1993-04-12",
+      "email": "alia@gmail.com",
+      "contact": "9834257937",
+      "city": "Mumbai",
+      "Gender": "Female",
+      "password": "alia1234",
+      "id": 3
+    },
+    {
+      "firstName": "Bhoomi",
+      "lastName": "Rawat",
+      "dob": "1998-09-23",
+      "email": "bhoomi@gmail.com",
+      "contact": "9864573993",
+      "city": "Nashik",
+      "Gender": "Female",
+      "password": "bhoo1234",
+      "id": 4
+    },
+    {
+      "firstName": "Rasika",
+      "lastName": "Shripad",
+      "dob": "1996-08-14",
+      "email": "rasika@gmail.com",
+      "contact": "9936617423",
+      "city": "Pune",
+      "Gender": "Female",
+      "password": "rasi1234",
+      "id": 5
+    },
+    {
+      "firstName": "Punam",
+      "lastName": "Menon",
+      "dob": "2002-01-16",
+      "email": "punam@gmail.com",
+      "contact": "9085320113",
+      "city": "Pune",
+      "Gender": "Female",
+      "password": "puna1234",
+      "id": 5
+    },
+    {
+      "firstName": "Ishan",
+      "lastName": "Kishan",
+      "dob": "1999-09-11",
+      "email": "ishan@gmail.com",
+      "contact": "9019630423",
+      "city": "Pune",
+      "Gender": "male",
+      "password": "isha1234",
+      "id": 6
+    },
+    {
+      "firstName": "Paras",
+      "lastName": "Bisen",
+      "dob": "1996-02-18",
+      "email": "paras@gmail.com",
+      "contact": "9078563423",
+      "city": "Nagpur",
+      "Gender": "male",
+      "password": "para1234",
+      "id": 7
+    },
+    {
+      "firstName": "Rohan",
+      "lastName": "Singh",
+      "dob": "2001-02-15",
+      "email": "rohan@gmail.com",
+      "contact": "9061652913",
+      "city": "Mumbai",
+      "Gender": "male",
+      "password": "roha1234",
+      "id": 8
+    },
+    {
+      "firstName": "Lalit",
+      "lastName": "Nair",
+      "dob": "1990-03-02",
+      "email": "lali@gmail.com",
+      "contact": "9800314423",
+      "city": "Nagpur",
+      "Gender": "male",
+      "password": "lali1234",
+      "id": 9
+    },
+    {
+      "firstName": "Shravan",
+      "lastName": "Karmakar",
+      "dob": "1986-10-26",
+      "email": "shravan@gmail.com",
+      "contact": "9090163423",
+      "city": "Pune",
+      "Gender": "male",
+      "password": "shra1234",
+      "id": 10
+    },
+    {
+      "firstName": "Rohit",
+      "lastName": "Agarwal",
+      "dob": "1996-04-06",
+      "email": "rohit@gmail.com",
+      "contact": "9146281623",
+      "city": "Mumbai",
+      "Gender": "male",
+      "password": "rohi1234",
+      "id": 11
+    },
+    {
+      "firstName": "pasha",
+      "lastName": "biceps",
+      "dob": "2003-02-10",
+      "email": "pasha@gmail.com",
+      "contact": "8182838485",
+      "city": "Pune",
+      "Gender": "male",
+      "password": "pasha@123",
+      "id": 12
+    }
+  ],
+  "doctor": [
+    {
+      "id": 1,
+      "firstName": "Karansingh",
+      "lastName": "Hajari",
+      "Gender": "male",
+      "email": "karansingh@gmail.com",
+      "password": "karan1234",
+      "availability": "true",
+      "speciality": "Cardiologist",
+      "eductaion": "MBBS",
+      "appointments[0][userName]": "Alia Bhatt",
+      "appointments[0][startDate]": "2022-02-17T23:24",
+      "appointments[0][endDate]": "2022-02-17T12:24"
+    },
+    {
+      "id": 2,
+      "firstName": "Govind",
+      "lastName": "Nair",
+      "Gender": "male",
+      "email": "govind@gmail.com",
+      "password": "govi1234",
+      "availability": "true",
+      "speciality": "Neurologist",
+      "eductaion": "MBBS",
+      "appointments[0][id]": "2",
+      "appointments[0][userName]": "Alia Bhatt",
+      "appointments[0][startDate]": "2022-02-10T23:27",
+      "appointments[0][endDate]": "2022-02-10T23:27"
+    },
+    {
+      "id": 3,
+      "firstName": "Kushal",
+      "lastName": "Bhattad",
+      "Gender": "male",
+      "email": "kushal@gmail.com",
+      "password": "kush1234",
+      "availability": "true",
+      "speciality": "Gyanacologist",
+      "eductaion": "MBBS",
+      "appointments[0][userName]": "Alia Bhatt",
+      "appointments[0][startDate]": "2022-02-16T13:45",
+      "appointments[0][endDate]": "2022-02-16T02:44"
+    },
+    {
+      "id": 4,
+      "firstName": "Manish",
+      "lastName": "Kale",
+      "Gender": "male",
+      "email": "manish@cybage.com",
+      "password": "mani1234",
+      "availability": "true",
+      "speciality": "Surgeon",
+      "eductaion": "MD",
+      "appointmentsa": "Rohan Singh",
+      "appointmentsb": "2022-02-14T12:50",
+      "appointmentsc": "2022-02-14T13:45"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "userName": "Alia Bhatt",
+      "startDate": "2022-02-17T14:35",
+      "endDate": "2022-02-17T15:35",
+      "doctorname": "Govind Nair"
+    },
+    {
+      "userName": "pasha biceps",
+      "startDate": "2022-02-17T20:54",
+      "endDate": "2022-02-15T12:54",
+      "doctorname": "Karansingh Hajari",
+      "id": 2
+    }
+   
+  ]
+}

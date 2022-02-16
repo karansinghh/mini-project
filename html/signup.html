@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+         <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </head>
+    
+    
+      <header>
+
+<nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    
+    
+
+    <a class="navbar-brand" href=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Sign In</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../html/doctorsignin.html">Doctor Signin</a></li>
+            <li><a class="dropdown-item" href="../html/patientsignin.html">Patient Signin</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+
+       
+    </div>
+  </div>
+</nav>
+
+        </header>
+
+        <body id="signup">
+
+
+        <form class="row g-3" id="signUp">
+          <div class="col-md-12">
+                            <h4>Registration form</h4>
+                          </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password">
+  </div>
+  <div class="col-6">
+    <label for="inputAddress" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+  </div>
+  
+  <div class="col-6">
+    <label for="inputAddress2" class="form-label">Last Name</label>
+    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+  </div>
+
+   <div class="col-md-3">
+        <label for="dob" class="form-label">Date Of Birth</label>
+        <input type="date" class="form-control" id="dob" required/>
+      </div>
+
+
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="city">
+  </div>
+  <div class="col-md-3">
+        <label for="gender" class="form-label">Gender</label>
+        <input type="gender" class="form-control" id="gender" required/>
+      </div>
+
+  <div class="col-md-4">
+    <label for="inputZip" class="form-label">Contact</label>
+    <input type="text" class="form-control" id="contact">
+  </div>
+  
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary" id="submit">Sign in</button>
+  </div>
+
+</form>
+        
+        <script src="../js/signup.js" async defer></script>
+    </body>
+</html>
